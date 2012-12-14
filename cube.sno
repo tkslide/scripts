@@ -10,31 +10,13 @@
 	ESC = CHAR(27)
 	NL = CHAR(10)
 	CLEAR = ESC "[H" ESC "[2J"
-	x = table(26)
-	x<"A"> = "A"
-	x<"B"> = "B"
-	x<"C"> = "C"
-	x<"D"> = "D"
-	x<"E"> = "E"
-	x<"F"> = "F"
-	x<"G"> = "G"
-	x<"H"> = "H"
-	x<"I"> = "I"
-	x<"J"> = "J"
-	x<"K"> = "K"
-	x<"L"> = "L"
-	x<"M"> = "M"
-	x<"N"> = "N"
-	x<"O"> = "O"
-	x<"P"> = "P"
-	x<"Q"> = "Q"
-	x<"R"> = "R"
-	x<"S"> = "S"
-	x<"T"> = "T"
-	x<"U"> = "U"
-	x<"V"> = "V"
-	x<"W"> = "W"
-	x<"X"> = "X"
+
+* Initialize the table
+	slogan = &UCASE
+	x = table(size(slogan))	
+explode	slogan len(1) . ch =			:f(chopped)
+	x<ch> = ch				:(explode)
+chopped
 
 
 	define('MOVE(str,dir)')			:(MOVE_end)
