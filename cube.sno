@@ -1,4 +1,5 @@
 #! /usr/local/bin/snobol4 -b
+* written by Rafal M. Sulejman
 * based on the "Ciezarek's Cube" program by M. Ciezarek, Bajtek '93
 * Keys:
 * a,b,c,d,e - rotate clockwise
