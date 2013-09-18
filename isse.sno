@@ -1,6 +1,6 @@
 #! /usr/local/bin/snobol4 -b
 * ISSE - Incredibly (Simple|Stupid) Snobol4 Editor
-* Author: Rafal M. Sulejman <rms@poczta.onet.pl>
+* Author: Rafal M. Sulejman
 *
 * Standard (no readline)
 *
